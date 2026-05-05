@@ -7,7 +7,79 @@
 <meta name="description" content="Pétanque Pro — le jeu de boules officiel par Elite Zone Apex.">
 <link rel="stylesheet" href="styles.css">
 </head><!DOCTYPE html>
+<html lang="fr"><!DOCTYPE html>
 <html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pétanque Pro</title>
+<meta name="description" content="Pétanque Pro — le jeu de boules officiel par Elite Zone Apex.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="brand">
+    <div class="logo">Pétanque Pro</div>
+    <div class="by"><span class="by-fr">par</span><span class="by-en" style="display:none;">by</span> Elite Zone Apex</div>
+  </header>
+
+  <nav class="lang">
+    <a href="#fr" id="tab-fr" class="active" onclick="switchLang('fr');return false;">Français</a>
+    <a href="#en" id="tab-en" onclick="switchLang('en');return false;">English</a>
+  </nav>
+
+  <section class="section active" id="fr">
+    <h1>Pétanque Pro</h1>
+    <p class="meta">Le jeu de boules officiel — physique réaliste, marqueur, parties en ligne.</p>
+
+    <h2>Liens</h2>
+    <ul>
+      <li><a href="privacy.html">Politique de confidentialité</a></li>
+      <li><a href="support.html">Aide</a></li>
+      <li>Contact : <a href="mailto:support@elitezoneapex.com">support@elitezoneapex.com</a></li>
+    </ul>
+
+    <h2>Disponible sur l'App Store</h2>
+    <p>Pétanque Pro est une application iOS publiée par Elite Zone Apex. Téléchargez-la depuis l'App Store.</p>
+  </section>
+
+  <section class="section" id="en">
+    <h1>Pétanque Pro</h1>
+    <p class="meta">The official boules game — realistic physics, scorekeeper, online play.</p>
+
+    <h2>Links</h2>
+    <ul>
+      <li><a href="privacy.html#en">Privacy Policy</a></li>
+      <li><a href="support.html#en">Support</a></li>
+      <li>Contact: <a href="mailto:support@elitezoneapex.com">support@elitezoneapex.com</a></li>
+    </ul>
+
+    <h2>Available on the App Store</h2>
+    <p>Pétanque Pro is an iOS app published by Elite Zone Apex. Download it from the App Store.</p>
+  </section>
+
+  <footer>
+    <span>© 2026 Elite Zone Apex</span>
+    <span><a href="mailto:support@elitezoneapex.com">support@elitezoneapex.com</a></span>
+  </footer>
+</div>
+
+<script>
+function switchLang(lang) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.getElementById(lang).classList.add('active');
+  document.querySelectorAll('nav.lang a').forEach(a => a.classList.remove('active'));
+  document.getElementById('tab-' + lang).classList.add('active');
+  document.querySelectorAll('.by-fr').forEach(e => e.style.display = lang === 'fr' ? '' : 'none');
+  document.querySelectorAll('.by-en').forEach(e => e.style.display = lang === 'en' ? '' : 'none');
+  document.documentElement.lang = lang;
+  history.replaceState(null, '', '#' + lang);
+}
+if (location.hash === '#en') switchLang('en');
+</script>
+</body>
+</html>
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
