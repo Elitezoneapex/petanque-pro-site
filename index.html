@@ -8,7 +8,497 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="wrap">
+<div class="wrap"><!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pétanque Pro — Le jeu de boules officiel</title>
+<meta name="description" content="Pétanque Pro — physique réaliste, marqueur de parties, gestion de club. Téléchargez gratuitement sur l'App Store.">
+<meta property="og:title" content="Pétanque Pro">
+<meta property="og:description" content="Le jeu de boules officiel — physique réaliste, marqueur, parties en ligne.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#C4622D">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,800;0,900;1,500;1,700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topnav">
+  <div class="topnav-inner">
+    <a href="#top" class="brandmark">Pétanque Pro
+      <span class="by">par Elite Zone Apex</span>
+    </a>
+    <nav class="lang">
+      <a href="#fr" id="tab-fr" class="active" onclick="switchLang('fr');return false;">FR</a>
+      <a href="#en" id="tab-en" onclick="switchLang('en');return false;">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- =================== FRENCH =================== -->
+<section class="section active" id="fr">
+
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <span class="hero-eyebrow">Le jeu de boules officiel</span>
+        <h1>La pétanque,<br>comme <em>en Provence</em>.</h1>
+        <p class="lede">
+          Une physique réaliste sur gravier. Un marqueur pour vos parties au club ou au parc. Et l'authenticité du jeu national français — sur votre iPhone.
+        </p>
+        <div class="cta-row">
+          <a class="btn-appstore" href="#" aria-label="Télécharger sur l'App Store">
+            <svg viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            <span><span class="apl-line">Télécharger sur</span><span class="apl-name">l'App Store</span></span>
+          </a>
+          <a class="btn-secondary" href="#features-fr">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Découvrir l'app
+          </a>
+        </div>
+        <div class="hero-trust">
+          <span class="hero-trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+            Essai gratuit 7 jours
+          </span>
+          <span class="hero-trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+            Achat unique 3,99 €
+          </span>
+          <span class="hero-trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+            Sans publicité
+          </span>
+        </div>
+      </div>
+      <div class="hero-screenshot">
+        <div class="phone-frame">
+          <img src="hero-screenshot.png" alt="Capture d'écran de Pétanque Pro" loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="container" id="features-fr">
+    <span class="eyebrow">Trois jeux en un</span>
+    <h2>Pour les vrais <em>passionnés</em>.</h2>
+    <p class="section-lede">
+      Du terrain de gravier au parc municipal, en passant par les tournois de votre club — Pétanque Pro accompagne tous vos moments de jeu.
+    </p>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>
+        </div>
+        <h3>Physique réaliste</h3>
+        <p>Pointez avec finesse, tirez pour déloger, ou tentez le carreau parfait. Trois niveaux d'IA, du débutant au champion stratégique.</p>
+      </div>
+
+      <div class="feature-card sage">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h4"/></svg>
+        </div>
+        <h3>Marqueur de parties</h3>
+        <p>Au club ou au parc, suivez le score de vos vraies parties d'un seul geste. Mène par mène. Avec l'historique complet.</p>
+      </div>
+
+      <div class="feature-card sky">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a16 16 0 010 18M12 3a16 16 0 000 18"/></svg>
+        </div>
+        <h3>Jeu en ligne</h3>
+        <p>Affrontez des joueurs du monde entier en temps réel. Trouvez un adversaire en quelques secondes — sans inscription.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 20v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2M21 20v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/><circle cx="9" cy="7" r="4"/></svg>
+        </div>
+        <h3>Gestion de club</h3>
+        <p>Créez votre club, invitez les membres, organisez vos tournois. Suivez les statistiques saison après saison.</p>
+      </div>
+
+      <div class="feature-card sage">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h2l3-9 4 18 4-12 3 6h4"/></svg>
+        </div>
+        <h3>Vocabulaire authentique</h3>
+        <p>Mène, cochonnet, carreau, fanny — la pétanque dans son vrai langage, pas un jeu mobile générique.</p>
+      </div>
+
+      <div class="feature-card sky">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-6 9 6v11a2 2 0 01-2 2H5a2 2 0 01-2-2zM9 22V12h6v10"/></svg>
+        </div>
+        <h3>Quatre langues</h3>
+        <p>Interface en français, anglais, espagnol et italien. Pour jouer chez soi ou en vacances, partout autour de la Méditerranée.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <div class="container">
+      <span class="eyebrow">Tarifs simples</span>
+      <h2>Une fois. <em>Pour la vie.</em></h2>
+      <p class="section-lede">
+        Téléchargez gratuitement, profitez de tout pendant 7 jours, puis passez à Pétanque Pro à vie pour le prix d'un café.
+      </p>
+
+      <div class="pricing-card">
+        <div class="pricing-headline">
+          <span class="price">3,99 €</span>
+          <span class="for-life">à vie · achat unique</span>
+        </div>
+        <h3>Pétanque Pro complet</h3>
+
+        <ul class="pricing-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Toutes les difficultés d'IA — Facile, Moyen, Difficile</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Marqueur de parties illimité avec historique</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Jeu en ligne en temps réel</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Mode local à deux joueurs</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Mises à jour gratuites à vie</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Sans publicité, sans pisteurs</li>
+        </ul>
+
+        <div class="addons">
+          <h4>Options à la carte</h4>
+          <div class="addons-list">
+            <div class="addon">
+              <span class="addon-name">Gestion de Club</span>
+              <span class="addon-price">9,99 €/mois</span>
+              <span class="addon-desc">Créez votre club, gérez les tournois et suivez les stats des membres.</span>
+            </div>
+            <div class="addon">
+              <span class="addon-name">Pack Terrains Premium</span>
+              <span class="addon-price">1,99 € · à vie</span>
+              <span class="addon-desc">Quatre styles de terrain supplémentaires — Provence, Méditerranée, Alpes, Vignoble.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-band">
+    <div class="container">
+      <blockquote>
+        « Enfin une vraie application de pétanque. Le terrain, le geste, le score — tout y est. »
+      </blockquote>
+      <cite>— Conçu en Provence, pour les joueurs du monde entier</cite>
+    </div>
+  </section>
+
+  <section class="container">
+    <span class="eyebrow">Questions fréquentes</span>
+    <h2>Tout ce qu'il faut <em>savoir</em>.</h2>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Comment fonctionne l'essai gratuit ?</summary>
+        <div class="faq-answer">
+          Téléchargez l'app gratuitement et utilisez toutes les fonctionnalités pendant 7 jours, sans aucun engagement. À la fin de l'essai, un seul achat de 3,99 € débloque Pétanque Pro à vie. Pas de prélèvement automatique, pas de surprise.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>L'achat est-il vraiment unique ?</summary>
+        <div class="faq-answer">
+          Oui. Pour 3,99 €, vous obtenez Pétanque Pro pour toujours, sur tous vos appareils Apple connectés au même identifiant. Les mises à jour sont gratuites. Seuls la Gestion de Club (9,99 €/mois) et les packs de terrains optionnels sont vendus séparément.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Pétanque Pro est-il disponible hors ligne ?</summary>
+        <div class="faq-answer">
+          Oui. Le jeu contre l'IA, le marqueur de parties et l'historique fonctionnent entièrement hors ligne. Une connexion n'est nécessaire que pour le jeu en ligne et la Gestion de Club.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Comment fonctionne la Gestion de Club ?</summary>
+        <div class="faq-answer">
+          L'abonnement Gestion de Club (9,99 €/mois) vous permet de créer un club, d'inviter des membres avec un code, d'organiser des tournois en round-robin ou en élimination directe, et de suivre les statistiques de chaque joueur dans le temps. Idéal pour les clubs locaux et les associations.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Mes données sont-elles privées ?</summary>
+        <div class="faq-answer">
+          Pétanque Pro ne contient aucune publicité ni pisteur. Vos parties locales restent sur votre appareil. Si vous créez un compte (optionnel pour le multijoueur en ligne), seul votre nom d'affichage est partagé avec vos adversaires. <a href="privacy.html">Lire la politique de confidentialité.</a>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Quand l'application sera-t-elle disponible ?</summary>
+        <div class="faq-answer">
+          Pétanque Pro arrive bientôt sur l'App Store. Pour être prévenu du lancement, écrivez-nous à <a href="mailto:support@elitezoneapex.com">support@elitezoneapex.com</a>.
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <h2>Prêt à <em>lancer</em> ?</h2>
+    <p>Téléchargez Pétanque Pro et tirez votre première mène en moins d'une minute.</p>
+    <a class="btn-appstore" href="#" aria-label="Télécharger sur l'App Store">
+      <svg viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+      <span><span class="apl-line">Télécharger sur</span><span class="apl-name">l'App Store</span></span>
+    </a>
+  </section>
+</section>
+
+<!-- =================== ENGLISH =================== -->
+<section class="section" id="en">
+
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <span class="hero-eyebrow">The official boules game</span>
+        <h1>Pétanque,<br>the way it's <em>played</em>.</h1>
+        <p class="lede">
+          Realistic gravel-court physics. A scorekeeper for your real games at the park or club. The authenticity of the French national pastime — on your iPhone.
+        </p>
+        <div class="cta-row">
+          <a class="btn-appstore" href="#" aria-label="Download on the App Store">
+            <svg viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            <span><span class="apl-line">Download on the</span><span class="apl-name">App Store</span></span>
+          </a>
+          <a class="btn-secondary" href="#features-en">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            Explore the app
+          </a>
+        </div>
+        <div class="hero-trust">
+          <span class="hero-trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+            7-day free trial
+          </span>
+          <span class="hero-trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+            One-time $3.99
+          </span>
+          <span class="hero-trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+            No ads
+          </span>
+        </div>
+      </div>
+      <div class="hero-screenshot">
+        <div class="phone-frame">
+          <img src="hero-screenshot.png" alt="Pétanque Pro screenshot" loading="eager">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="container" id="features-en">
+    <span class="eyebrow">Three apps in one</span>
+    <h2>Built for <em>real players</em>.</h2>
+    <p class="section-lede">
+      From the gravel court to the city park to your club's tournament — Pétanque Pro is with you for every moment of the game.
+    </p>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>
+        </div>
+        <h3>Realistic physics</h3>
+        <p>Point with finesse, shoot to dislodge, or attempt the perfect carreau. Three AI difficulties — from beginner to strategic champion.</p>
+      </div>
+
+      <div class="feature-card sage">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h4"/></svg>
+        </div>
+        <h3>Real-life scorekeeper</h3>
+        <p>At the club or the park, track the score of your real games in one tap — mène by mène. With full game history.</p>
+      </div>
+
+      <div class="feature-card sky">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a16 16 0 010 18M12 3a16 16 0 000 18"/></svg>
+        </div>
+        <h3>Online play</h3>
+        <p>Face players from around the world in real time. Find an opponent in seconds — no signup required.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 20v-2a4 4 0 00-4-4H7a4 4 0 00-4 4v2M21 20v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/><circle cx="9" cy="7" r="4"/></svg>
+        </div>
+        <h3>Club management</h3>
+        <p>Create your club, invite members, run tournaments. Track member statistics season after season.</p>
+      </div>
+
+      <div class="feature-card sage">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h2l3-9 4 18 4-12 3 6h4"/></svg>
+        </div>
+        <h3>Authentic vocabulary</h3>
+        <p>Mène, cochonnet, carreau, fanny — pétanque in its real language, not a generic mobile game.</p>
+      </div>
+
+      <div class="feature-card sky">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-6 9 6v11a2 2 0 01-2 2H5a2 2 0 01-2-2zM9 22V12h6v10"/></svg>
+        </div>
+        <h3>Four languages</h3>
+        <p>Interface in French, English, Spanish and Italian — for play at home or on holiday around the Mediterranean.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <div class="container">
+      <span class="eyebrow">Simple pricing</span>
+      <h2>Once. <em>For life.</em></h2>
+      <p class="section-lede">
+        Download free, enjoy everything for 7 days, then unlock Pétanque Pro for life — for less than the price of a coffee.
+      </p>
+
+      <div class="pricing-card">
+        <div class="pricing-headline">
+          <span class="price">$3.99</span>
+          <span class="for-life">for life · one-time</span>
+        </div>
+        <h3>Pétanque Pro full app</h3>
+
+        <ul class="pricing-list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> All AI difficulties — Easy, Medium, Hard</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Unlimited scorekeeper with full history</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Real-time online multiplayer</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Local two-player mode</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> Free updates for life</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg> No ads, no trackers</li>
+        </ul>
+
+        <div class="addons">
+          <h4>Optional add-ons</h4>
+          <div class="addons-list">
+            <div class="addon">
+              <span class="addon-name">Club Management</span>
+              <span class="addon-price">$9.99/month</span>
+              <span class="addon-desc">Create your club, manage tournaments, track member stats over time.</span>
+            </div>
+            <div class="addon">
+              <span class="addon-name">Premium Court Pack</span>
+              <span class="addon-price">$1.99 · for life</span>
+              <span class="addon-desc">Four extra court styles — Provence, Mediterranean, Alpine, Vineyard.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote-band">
+    <div class="container">
+      <blockquote>
+        "Finally, a real pétanque app. The court, the throw, the score — it's all there."
+      </blockquote>
+      <cite>— Built in Provence, for players around the world</cite>
+    </div>
+  </section>
+
+  <section class="container">
+    <span class="eyebrow">Frequently asked</span>
+    <h2>What you should <em>know</em>.</h2>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>How does the free trial work?</summary>
+        <div class="faq-answer">
+          Download the app free and use every feature for 7 days, no commitment. At the end of the trial, a single $3.99 purchase unlocks Pétanque Pro for life. No auto-renewing subscription, no surprises.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Is the purchase truly one-time?</summary>
+        <div class="faq-answer">
+          Yes. For $3.99 you get Pétanque Pro forever, on every Apple device tied to the same Apple ID. Updates are free. Only Club Management ($9.99/month) and the optional Premium Court Pack are sold separately.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Does Pétanque Pro work offline?</summary>
+        <div class="faq-answer">
+          Yes. AI play, the scorekeeper and your full game history work fully offline. A connection is only needed for online multiplayer and Club Management.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How does Club Management work?</summary>
+        <div class="faq-answer">
+          The Club Management subscription ($9.99/month) lets you create a club, invite members with an invite code, run round-robin or single-elimination tournaments, and track each player's stats over time. Built for local clubs and pétanque associations.
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Is my data private?</summary>
+        <div class="faq-answer">
+          Pétanque Pro contains no advertising and no trackers. Your local games stay on your device. If you create an optional account for online multiplayer, only your display name is shared with opponents. <a href="privacy.html#en">Read the privacy policy.</a>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>When will the app be available?</summary>
+        <div class="faq-answer">
+          Pétanque Pro is coming soon to the App Store. To be notified at launch, drop us a line at <a href="mailto:support@elitezoneapex.com">support@elitezoneapex.com</a>.
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <h2>Ready to <em>throw</em>?</h2>
+    <p>Download Pétanque Pro and play your first mène in under a minute.</p>
+    <a class="btn-appstore" href="#" aria-label="Download on the App Store">
+      <svg viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+      <span><span class="apl-line">Download on the</span><span class="apl-name">App Store</span></span>
+    </a>
+  </section>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">Pétanque Pro<span class="by">par Elite Zone Apex</span></div>
+    <div class="footer-links">
+      <a href="privacy.html">Politique de confidentialité</a>
+      <a href="support.html">Aide / Support</a>
+      <a href="mailto:support@elitezoneapex.com">Contact</a>
+    </div>
+  </div>
+  <div class="footer-base">
+    <span>© 2026 Elite Zone Apex — Tous droits réservés</span>
+    <span>Pétanque Pro™</span>
+  </div>
+</footer>
+
+<script>
+function switchLang(lang) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.getElementById(lang).classList.add('active');
+  document.querySelectorAll('nav.lang a').forEach(a => a.classList.remove('active'));
+  document.getElementById('tab-' + lang).classList.add('active');
+  document.documentElement.lang = lang;
+  history.replaceState(null, '', '#' + lang);
+  window.scrollTo({ top: 0, behavior: 'auto' });
+}
+if (location.hash === '#en') switchLang('en');
+</script>
+
+</body>
+</html>
+
   <header class="brand">
     <div class="logo">Pétanque Pro</div>
     <div class="by"><span class="by-fr">par</span><span class="by-en" style="display:none;">by</span> Elite Zone Apex</div>
